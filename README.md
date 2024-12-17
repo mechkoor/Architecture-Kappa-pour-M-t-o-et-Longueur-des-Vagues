@@ -124,4 +124,5 @@ The dashboard provides:
 - Wave length data visualization.
 - Interactive tools for querying and analyzing data in Kibana.
 
-![Dashboard](misc/Dashboard.png)
+![image](https://github.com/user-attachments/assets/21fee6fd-1dde-467b-9c0c-2032d5003ed6)
+
