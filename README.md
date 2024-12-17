@@ -62,7 +62,7 @@ Ensure the following tools are installed:
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/YourUsername/weather_wave_kappa.git](https://github.com/mechkoor/Architecture-Kappa-pour-M-t-o-et-Longueur-des-Vagues.git)
+   git clone [https://github.com/mechkoor/weather_wave_kappa.git](https://github.com/mechkoor/Architecture-Kappa-pour-M-t-o-et-Longueur-des-Vagues.git)
    ```
 2. Navigate to the project directory:
    ```bash
