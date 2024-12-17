@@ -77,8 +77,12 @@ Ensure the following tools are installed:
 5. Verify that all containers are running.
 
    - If any container fails, open Docker Desktop and manually start the relevant containers.
+![image](https://github.com/user-attachments/assets/2c49330c-38c4-4099-a102-ac8918591ccc)
+
 
 6. Upload the `final_flow.xml` template into Apache NiFi to set up the data pipeline, which sends data to Kafka.
+![image](https://github.com/user-attachments/assets/f1db030a-f7e1-4b41-8d4d-e1988da0e462)
+
 
 7. Once the pipeline is set up, the data will be processed and stored in Kafka.
 
@@ -88,14 +92,25 @@ Ensure the following tools are installed:
    ```
 
 9. Access the Flink web interface. In the Flink interface, click on **Submit New Job** and select the JAR file generated during the Maven build process. It will be located in the `target` folder of your project.
+![image](https://github.com/user-attachments/assets/10b9af84-47a0-49ee-9804-52f51546049d)
+
 
 10. In the **Entry Class**, enter the path to the main class (e.g., `com.example.flink.DataStreamJob`).
+![image](https://github.com/user-attachments/assets/1cf5e595-d451-42fc-be2e-a046d63eae99)
+
 
 11. Submit the job to start processing the data.
+![image](https://github.com/user-attachments/assets/e354edae-2152-42dc-a146-08594f05cac8)
+
+
 
 12. Go to Kibana, create an index pattern for the index created by Flink (e.g., `weather`).
+![image](https://github.com/user-attachments/assets/8d470cab-59fa-48e0-b0a1-1bef0eed2f79)
+
 
 13. Click on **Discover** to see data consumed in real-time.
+![image](https://github.com/user-attachments/assets/8007cb37-47be-493d-b906-aff8659a75c6)
+
 
 14. Go to **Stack Management** -> **Saved Objects** and import the dashboard.
 
