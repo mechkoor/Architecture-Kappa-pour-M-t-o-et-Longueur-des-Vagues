@@ -25,8 +25,8 @@ This project implements a Kappa architecture using Apache Flink, Apache NiFi, El
 ---
 
 ## Project Architecture
+![WhatsApp Image 2024-12-17 at 7 28 35 PM](https://github.com/user-attachments/assets/c280b7fb-b1c4-45f1-b590-48114c761187)
 
-![Project Architecture](misc/architecture.png)
 
 ### Services
 
