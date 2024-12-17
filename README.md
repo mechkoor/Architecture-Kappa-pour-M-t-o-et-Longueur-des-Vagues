@@ -43,7 +43,8 @@ This project implements a Kappa architecture using Apache Flink, Apache NiFi, El
 - The architecture includes services such as NiFi, Zookeeper, Flink (Master and Worker nodes), Kafka brokers, Elasticsearch nodes, and Kibana.
 - Custom networks and persistent volumes are used to ensure secure and isolated communication between services.
 
-![Docker Architecture](misc/WhatsApp_Image_2024-12-17_at_7_28_35_PM.jpg)
+![image](https://github.com/user-attachments/assets/4b33b886-6907-4ef4-93c2-8906fec227a5)
+
 
 ---
 
