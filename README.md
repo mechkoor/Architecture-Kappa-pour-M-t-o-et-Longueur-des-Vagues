@@ -118,11 +118,27 @@ Ensure the following tools are installed:
 
 ## Dashboard
 
-The dashboard provides:
+To display real-time visualizations in Kibana by importing a dashboard file, here are the steps:
 
-- Real-time weather data visualization.
-- Wave length data visualization.
-- Interactive tools for querying and analyzing data in Kibana.
+1. **Go to "Stack Management"**  
+   In the left-hand menu, click on **Management > Stack Management**.
+
+2. **Click on "Saved Objects"**  
+   In the **Stack Management** section, locate **"Saved Objects"** and click on it.  
+   This allows you to manage saved objects such as dashboards, visualizations, and index patterns.
+
+3. **Import the JSON file**  
+   Click the **"Import"** button in the top-right corner.  
+   Select the **dashboard JSON file** located in your project.
+
+<img width="960" alt="5" src="https://github.com/user-attachments/assets/8acacfa4-99c3-4f21-8cab-a3bef334413b" />
+A dashboard containing real-time charts and graphs, including:
+
+- **Temperature by city**: A graph showing the evolution of temperatures for each city.  
+- **Relationship between wind speed and wave length**: A graph correlating these two variables.  
+- **Wave length by day for each city**: A graph showing daily variations in wave length for each city.  
+- **Wind direction (wind degree) for each city**: A visualization indicating the wind direction (in degrees) in different cities.
+
 
 ![image](https://github.com/user-attachments/assets/21fee6fd-1dde-467b-9c0c-2032d5003ed6)
 
