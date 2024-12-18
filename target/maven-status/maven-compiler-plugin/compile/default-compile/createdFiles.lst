@@ -1,0 +1,8 @@
+com\example\flink\DataStreamJob.class
+com\example\flink\CombinedWeather.class
+com\example\flink\WeatherGeneral.class
+com\example\flink\JSONWeatherDeserializationSchema.class
+com\example\flink\CombinedWeatherProcessor.class
+com\example\flink\JsonUtil.class
+com\example\flink\JSONWeatherMarineDeserializationSchema.class
+com\example\flink\WeatherMarine.class
